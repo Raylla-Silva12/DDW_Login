@@ -16,6 +16,7 @@ body {
     font-size: 13px;
     text-align: left;
   }
+
   .form-signin .form-control {
     margin-bottom: 4px;
     position: relative;
@@ -24,17 +25,45 @@ body {
     padding: 10px;
     font-size: 16px;
   }
+
   .form-signin .form-control:focus {
     z-index: 2;
   }
+
   .form-signin input[type="email"], .form-signin input[type="password"] {
     border-radius: 0;
     margin-bottom: 15px;
   }
 
+  .mb-4 {
+  margin-top: 20px;
+  }
+
+  .x-voltar, .x-voltar:hover {
+    float: right;
+    color: #000;
+    text-decoration: none;
+    font-size: medium;
+  }
+
   a {
     text-decoration: none;
     color: aliceblue;
+    font-size: small;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(94, 200, 241);
+  }
+
+  #a-senha {
+    color: black;
+    text-decoration: underline;
+  }
+  #a-senha:hover {
+    color: rgb(56, 170, 28);
+    text-decoration: none;
   }
 
   label {
@@ -43,4 +72,22 @@ body {
     margin-bottom: 0;
     font-weight: bold;
   }
+
+  #cancelar {
+    padding: 20px;
+    height: 90px;
+    background-color: rgb(227, 232, 235);
+  }
+
+  .btn-cancel {
+    float: left;
+  }
+
+  p {
+    margin-top: 10px;
+    float: right;
+    color: #000;
+    font-size: small;
+  }
+
 

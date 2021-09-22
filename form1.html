@@ -15,8 +15,9 @@
 <body>
     <div class="container-fluid">
         <form class="form-signin">
+            <a href="index.html" class="x-voltar">X</a>
 
-            <img class="mb-4" src="img/icone.PNG" alt="" width="200" height="200">
+            <img class="mb-4" src="img/icone.PNG" alt="" width="180" height="180">
             <br>
             <label for="inputEmail">Username</label>
             <input type="email" id="inputEmail" class="form-control" placeholder="Enter Username" required autofocus>
@@ -31,8 +32,12 @@
                     <input type="checkbox" value="remember-me"> Remember me
                 </label>
             </div>
+            <br><br>
 
-            // Cancelar
+            <div id="cancelar">
+                <button class="btn btn-danger btn-cancel"><a href="index.html">Cancel</a></button>
+                <p>Forgot <a href="#" id="a-senha">password?</a></p>
+            </div>
 
         </form>
     </div>
