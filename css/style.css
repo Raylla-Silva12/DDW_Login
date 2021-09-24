@@ -8,7 +8,7 @@ body {
     max-width: 45%;
     padding: 15px;
     margin: auto;
-  }gggg
+  }
 
   .form-signin .checkbox {
     font-weight: 400;
@@ -73,7 +73,7 @@ body {
     font-weight: bold;
   }
 
-  #cancelar {
+  #forgot-1 {
     padding: 20px;
     height: 90px;
     background-color: rgb(227, 232, 235);
@@ -89,5 +89,36 @@ body {
     color: #000;
     font-size: small;
   }
+
+  .container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-2 {
+    border-radius: 8px;
+    background-color: white;
+  }
+
+  hr {
+    border-color: rgb(214, 211, 211);
+    margin-bottom: 0;
+  }
+
+  #forgot-2 {
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(228, 236, 241);
+  }
+
+  #icone2 {
+    position: absolute;
+    width: 500px;
+    height: 80px;
+  }
+
 
 
