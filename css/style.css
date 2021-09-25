@@ -2,6 +2,12 @@ body {
   font-family: 'Arial';
 }
 
+.btn-redirect {
+  padding: 15px 35px 15px 35px;
+  background-color: rgb(40, 40, 47);
+  color: aliceblue;
+}
+
 .form-signin {
   text-align: center;
   width: 100%;
